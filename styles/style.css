@@ -3,3 +3,70 @@
   box-sizing:border-box;  
 }
 
+
+
+
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+
+:root {
+
+  --background-color:#F5F5F5
+
+}
+
+
+
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+
+body{
+
+}
+
+ header {
+  position:fixed;
+  top:0;
+  
+  padding:.25em .75em;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+ nav {
+  display:block;
+  width:7.5em;
+  height:3.5em;
+  
+  background-image:url("https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png");
+  background-position:.75em center;
+  background-size:auto 25px;
+  background-repeat:no-repeat;
+  outline:none;
+}
+
+  ul {
+  list-style-type: none;
+}
+
+main {
+
+}
+
+main aside p{
+  display: flex;
+  position:fixed;
+  top:5em;
+  margin:0;
+  left:0;
+  width: 100%;
+  text-align:center;
+  line-height:5em;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:var(--background-color);
+}

@@ -40,7 +40,7 @@ https://www.nike.com/nl/en/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 startpagina  
-<img src="images/nike-startpagina.png" width="375px" alt="startpagina">
+<img src="images/nike-website-screenshot.png" width="375px" alt="startpagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 schoenen pagina 
@@ -56,10 +56,10 @@ schoenen pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/nike-fed-homepagina-breakdownschets-01.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/nike-fed-schoenenpagina-breakdownschets-02.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
