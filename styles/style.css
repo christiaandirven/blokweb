@@ -1,6 +1,8 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 
@@ -11,9 +13,9 @@
 /******************************/
 
 :root {
-
-  --background-color:#F5F5F5
-
+  --background-color: #F5F5F5;
+  --color: white;
+  --button-color: #111111;
 }
 
 
@@ -23,50 +25,192 @@
 /* ALGEMENE STIJLEN */
 /********************/
 
-body{
+body {
+
+  margin: 0%;
+}
+
+header {
+  top: 0;
+
+  padding: .25em .75em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav:nth-of-type(1) {
+  display: flex;
+  width: 7.5em;
+  height: 3.5em;
+
+  background-position: .75em center;
+  background-size: auto 25px;
+  background-repeat: no-repeat;
+  outline: none;
+  flex-grow: 1;
+}
+
+nav ul:first-of-type {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-grow: 1;
+  justify-content: flex-end;
+  order: 1;
+  padding: 0px 8px;
+}
+
+nav a:first-of-type img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: inline-flex;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  align-items: center;
+
+
 
 }
 
- header {
-  position:fixed;
-  top:0;
-  
-  padding:.25em .75em;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+nav ul:first-of-type a img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: inline-flex;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  align-items: center;
+  justify-content: right;
+
+
 }
 
- nav {
-  display:block;
-  width:7.5em;
-  height:3.5em;
-  
-  background-image:url("https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png");
-  background-position:.75em center;
-  background-size:auto 25px;
-  background-repeat:no-repeat;
-  outline:none;
+nav button {
+  padding: 0%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  align-items: center;
+
 }
 
-  ul {
+
+nav button img {
+  width: 24px;
+  height: 24px;
+  z-index: 10;
+}
+
+nav:nth-of-type(2) {
+  position: fixed;
+  overflow: hidden;
+  width: 50%;
+  transform: translateX(100%);
+  top: 0;
+  bottom: 0;
+  margin: 0%;
+  background-color: white;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+
+nav:nth-of-type(2) p {}
+
+ul {
   list-style-type: none;
 }
 
-main {
+nav:nth-of-type(2).toonMenu {
+  transform: translateX(200%);
 
 }
 
-main aside p{
-  display: flex;
-  position:fixed;
-  top:5em;
-  margin:0;
-  left:0;
+
+
+main section h1 {
+  padding-right: 8px;
+  padding-left: 8px;
+  font-family: trade-gothic-next-compressed, sans-serif;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 60px;
+  display: block;
+  box-sizing: border-box;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  line-height: .75em;
+}
+
+main section img {
+
+  height: 100%;
   width: 100%;
-  text-align:center;
-  line-height:5em;
+  top: 0%;
+  left: 0%;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+main section:nth-of-type(2) p {
+  display: flex;
+  top: 5em;
+  margin: 0;
+  padding: 0px 8px;
+  width: 100%;
+  text-align: center;
+  justify-content: left;
+  line-height: 5em;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+main section p {
+  display: inline-block;
+  top: 5em;
+  margin: 0;
+  border: 0;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  line-height: 5em;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color:var(--background-color);
+  background-color: var(--background-color);
+  color: #111111;
+}
+
+main section a {
+  background-color: var(--button-color);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  color: var(--color);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-decoration: none;
+  margin: 6px 6px 0px 0px;
+  cursor: pointer;
+
+}
+
+main section button {
+  background-color: var(--button-color);
+}
+
+header section:nth-of-type(2) {
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
