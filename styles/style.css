@@ -20,6 +20,12 @@
   --button-color-2: white;
   --nav-color: white;
   --main-color: white;
+  --hover-color: rgba(255, 255, 255, 0.5);
+  --hover-color-2: rgba(0, 0, 0, 0.5);
+  --hover-text: rgba(0, 0, 0, 0.5);
+  --hover-text-2: rgba(255, 255, 255, 0.5);
+  --footer-color: #111111;
+  --footer-text: white;
 }
 
 /* algemen stijlen voor mensen met darkmode */
@@ -33,6 +39,12 @@
     --button-color-2: #111111;
     --nav-color: #38444c;
     --main-color: #38444c;
+    --hover-color: rgba(0, 0, 0, 0.5);
+    --hover-color-2: rgba(255, 255, 255, 0.5);
+    --hover-text: rgba(255, 255, 255, 0.5);
+    --hover-text-2: rgba(0, 0, 0, 0.5);
+    --footer-color: white;
+    --footer-text: #111111;
   }
 }
 
@@ -62,7 +74,7 @@ nav:nth-of-type(1) {
   height: 3.5em;
 
   background-position: .75em center;
-  background-size: auto 25px;
+  background-size: auto 1.56em;
   background-repeat: no-repeat;
   outline: none;
   flex-grow: 1;
@@ -78,27 +90,28 @@ nav:first-of-type ul {
   flex-grow: 1;
   justify-content: flex-end;
   order: 1;
-  padding: 0px 8px;
+  padding: 0 .5em;
   color: var(--nav-color);
 }
 
 nav a:first-of-type img {
-  width: 60px;
-  height: 60px;
+  width: 3.75em;
+  height: 3.75em;
   cursor: pointer;
   display: inline-flex;
   vertical-align: middle;
   position: relative;
   margin: 0;
   align-items: center;
+}
 
-
-
+nav a:first-of-type img:hover {
+  opacity: 0.5;
 }
 
 nav ul:first-of-type a img {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
   cursor: pointer;
   display: inline-flex;
   vertical-align: middle;
@@ -120,15 +133,22 @@ nav button {
   position: relative;
   margin: 0;
   align-items: center;
-
 }
-
 
 nav button img {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
   z-index: 10;
 }
+
+nav button img:hover {
+  opacity: 0.5;
+}
+
+nav button img:focus {
+  opacity: 0.5;
+}
+
 
 nav:nth-of-type(2) {
   position: fixed;
@@ -149,8 +169,8 @@ nav:nth-of-type(2) button img {
   padding: 0%;
   left: 90%;
   top: 3%;
-  width: 18px;
-  height: 18px;
+  width: 1.13em;
+  height: 1.13em;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -164,8 +184,8 @@ nav:nth-of-type(2) button img {
 nav:nth-of-type(2) p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 60;
-  font-size: 24px;
-  padding-left: 10px 0px;
+  font-size: 1.5em;
+  padding-left: .63em 0;
   color: var(--color-text);
   background-color: transparent;
 
@@ -173,7 +193,7 @@ nav:nth-of-type(2) p {
 
 ul {
   list-style-type: none;
-  padding: 40px 36px 150px
+  padding: 2.5em 2.25em 9.38em
 }
 
 nav:nth-of-type(2).toonMenu {
@@ -184,12 +204,12 @@ nav:nth-of-type(2).toonMenu {
 
 
 main section h1 {
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: .5em;
+  padding-left: .5em;
   font-family: trade-gothic-next-compressed, sans-serif;
   text-transform: uppercase;
   font-weight: 1000;
-  font-size: 60px;
+  font-size: 3.75em;
   display: block;
   box-sizing: border-box;
   margin-top: .25em;
@@ -199,41 +219,41 @@ main section h1 {
 }
 
 main section h2 {
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: .5em;
+  padding-left: .5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   display: block;
   box-sizing: border-box;
   margin-top: .25em;
   margin-bottom: .25em;
   line-height: .75em;
   position: relative;
-  margin-top: 25px;
-  margin-left: 20px;
+  margin-top: 1.56em;
+  margin-left: 1.25em;
   color: var(--color-text);
 }
 
 main section h3 {
   font-family: trade-gothic-next-compressed, sans-serif;
-  font-size: 50px;
+  font-size: 3.13em;
 }
 
 main section:nth-of-type(3) h2 {
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: .5em;
+  padding-left: .5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5em;
   display: block;
   box-sizing: border-box;
   margin-top: .25em;
   margin-bottom: .25em;
   line-height: .75em;
   position: absolute;
-  margin-top: 25px;
-  margin-left: 20px;
+  margin-top: 1.56em;
+  margin-left: 1.25em;
   color: var(--color-text);
 }
 
@@ -244,20 +264,20 @@ main section img {
   width: 100%;
   top: 0%;
   left: 0%;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: .5em;
+  padding-left: .5em;
 }
 
 main section:nth-of-type(2) p {
   display: flex;
   top: 5em;
   margin: 0;
-  padding: 0px 8px;
+  padding: 0 .5em;
   width: 100%;
   text-align: center;
   justify-content: left;
   line-height: 5em;
-  font-size: 16px;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
   color: var(--color-text);
@@ -268,12 +288,12 @@ main section:nth-of-type(1) p {
   top: 5em;
   margin: 0;
   border: 0;
-  padding: 0px;
+  padding: 0;
   width: 100%;
   text-align: center;
   justify-content: center;
   line-height: 5em;
-  font-size: 12px;
+  font-size: .75em;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background-color);
   color: var(--color-text);
@@ -282,16 +302,22 @@ main section:nth-of-type(1) p {
 main section:nth-of-type(2) a {
   background-color: var(--button-color);
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 20px;
+  border-radius: 1.25em;
   color: var(--color-text-2);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   text-decoration: none;
   margin: 6px 6px 0px 0px;
   cursor: pointer;
 }
+
+main section:nth-of-type(2) a:hover {
+  color: var(--hover-text-2);
+  background-color: var(--hover-color-2);
+}
+
 
 main section button {
   background-color: var(--button-color);
@@ -306,36 +332,36 @@ header section:nth-of-type(2) {
 
 main section:nth-of-type(3) {
   overflow: scroll;
-  padding-bottom: 70px;
+  padding-bottom: 4.38em;
 }
 
 main section:nth-of-type(3) ul {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 50px 0px 30px 20px;
+  padding: 3.13em 0 1.88em 1.25em;
   margin: 0;
 }
 
 main section:nth-of-type(3) ul li {
   list-style-type: none;
-  min-width: 300px;
-  height: 300px;
-  margin: 12px 12px 0px 0px;
+  min-width: 18.75em;
+  height: 18.75em;
+  margin: .75em .75em 0 0;
 }
 
 main section:nth-of-type(3) ul li h4 {
-  padding: 0px 8px;
+  padding: 0 .5em;
   margin: 0;
-  font-size: 16px;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: var(--color-text);
 }
 
 main section:nth-of-type(3) ul li p {
-  padding: 0px 8px;
-  font-size: 16px;
+  padding: 0 .5em;
+  font-size: 1em;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -345,8 +371,8 @@ main section:nth-of-type(3) ul li p {
 
 main section:nth-of-type(3) ul img:nth-of-type(1) {
   padding: 0;
-  width: 300px;
-  height: 300px;
+  width: 18.75em;
+  height: 18.75em;
 }
 
 .teaser {
@@ -355,8 +381,8 @@ main section:nth-of-type(3) ul img:nth-of-type(1) {
 
 .teaser div {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 1.25em;
+  bottom: 1.25em;
   z-index: 10;
 }
 
@@ -375,15 +401,21 @@ main section:nth-of-type(3) ul img:nth-of-type(1) {
 .teaser a {
   background-color: var(--button-color-2);
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 20px;
+  border-radius: 1.25em;
   color: var(--color-text);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   text-decoration: none;
   cursor: pointer;
 }
+
+.teaser a:hover {
+  color: var(--hover-text);
+  background-color: var(--hover-color);
+}
+
 
 .teaser.dark h2 {
   color: var(--color-text);
@@ -404,38 +436,44 @@ main section:nth-of-type(3) ul img:nth-of-type(1) {
   background-color: var(--color-text);
 }
 
+.teaser.dark a:hover {
+  color: var(--hover-text-2);
+  background-color: var(--hover-color-2);
+}
+
+
 main section:nth-of-type(6) {
   overflow: scroll;
-  padding-bottom: 70px;
+  padding-bottom: 4.38em;
 }
 
 main section:nth-of-type(6) ul {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 50px 0px 30px 20px;
+  padding: 3.13em 0 1.88em 1.25em;
   margin: 0;
 }
 
 main section:nth-of-type(6) ul li {
   list-style-type: none;
-  min-width: 300px;
-  height: 300px;
-  margin: 12px 12px 0px 0px;
+  min-width: 18.75em;
+  height: 18.75em;
+  margin: .75em .75em 0 0;
 }
 
 main section:nth-of-type(6) ul li h4 {
-  padding: 0px 8px;
+  padding: 0 .5em;
   margin: 0;
-  font-size: 16px;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: var(--color-text);
 }
 
 main section:nth-of-type(6) ul li p {
-  padding: 0px 8px;
-  font-size: 16px;
+  padding: 0 .5em;
+  font-size: 1em;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -445,8 +483,8 @@ main section:nth-of-type(6) ul li p {
 
 main section:nth-of-type(6) ul img:nth-of-type(1) {
   padding: 0;
-  width: 300px;
-  height: 300px;
+  width: 18.75em;
+  height: 18.75em;
 }
 
 main section:nth-of-type(7) {
@@ -454,88 +492,119 @@ main section:nth-of-type(7) {
 }
 
 main section:nth-of-type(7) h1 {
-  margin-top: 8px;
+  margin-top: .5em;
 }
 
 main section:nth-of-type(7) p {
-  margin-bottom: 8px;
-  margin-left: 12px;
+  margin-bottom: .5em;
+  margin-left: .75em;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
+  color: var(--color-text);
 }
 
 main section:nth-of-type(7) p:nth-of-type(2) {
-  margin-top: 30px;
-  margin-bottom: 8px;
-  margin-left: 12px;
+  margin-top: 1.88em;
+  margin-bottom: .5em;
+  margin-left: .75em;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 main section:nth-of-type(7) a:nth-of-type(1) {
   background-color: var(--button-color);
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 20px;
+  border-radius: 1.25em;
   color: var(--color-text-2);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   text-decoration: none;
-  margin: 6px 6px 0px 0px;
+  margin: .38em .38em 0 0;
   cursor: pointer;
-  left: 20px;
+  left: 1.25em;
   position: absolute;
 }
 
 main section:nth-of-type(7) a:nth-of-type(2) {
   background-color: var(--button-color);
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 20px;
+  border-radius: 1.25em;
   color: var(--color-text-2);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   text-decoration: none;
-  margin: 6px 6px 0px 0px;
+  margin: .38em .38em 0 0;
   cursor: pointer;
-  left: 150px;
+  left: 9.38em;
   position: absolute;
 }
 
+main section:nth-of-type(7) a:hover {
+  color: var(--hover-text-2);
+  background-color: var(--hover-color-2);
+}
+
 main section:nth-of-type(8) h2 {
-  margin-top: 100px;
+  margin-top: 6.25em;
   margin-left: .75em;
   padding: 0;
 }
 
-main section:nth-of-type(10) {
+main section:nth-of-type(11) {
   overflow: scroll;
 }
 
-main section:nth-of-type(10) ul {
+main section:nth-of-type(11) ul {
   display: flex;
   flex-direction: row;
   gap: 1em;
   flex-grow: 1;
   justify-content: flex-end;
   order: 1;
-  padding: 0px 8px;
+  padding: 0 .5em;
   color: var(--nav-color);
 }
 
-main section:nth-of-type(10) ul li {
+main section:nth-of-type(11) ul li {
   position: relative;
   list-style-type: none;
-  min-width: 300px;
-  height: 300px;
-  margin: 12px 12px 0px 0px;
+  min-width: 18.75em;
+  height: 18.75em;
+  margin: .75em .75em 0 0;
 }
 
 
-main section:nth-of-type(10) ul li a {
+main section:nth-of-type(11) ul li a {
   position: absolute;
   left: 1em;
   bottom: 1em;
+}
+
+main section:nth-of-type(11) ul li img {
+  width: 24.67em;
+  height: 30.84em;
+}
+
+main section:nth-of-type(12) ul {
+  background-color: var(--main-color);
+  padding: 1.5em;
+}
+
+main section:nth-of-type(12) p {
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: var(--footer-color);
+}
+
+footer p {
+  color: var(--footer-text);
+  font-family: trade-gothic-next-compressed, sans-serif;
+  text-transform: uppercase;
 }
