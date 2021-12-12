@@ -380,6 +380,22 @@ main section:nth-of-type(8) h2 {
   padding: 0;
 }
 
+main section:nth-of-type(10) h3 {
+  padding-right: .5em;
+  padding-left: 6px;
+  font-family: trade-gothic-next-compressed, sans-serif;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 3.75em;
+  display: block;
+  box-sizing: border-box;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  line-height: .75em;
+  color: var(--color-text);
+}
+
+
 main section:nth-of-type(11) {
   overflow: scroll;
 }
