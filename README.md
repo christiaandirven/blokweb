@@ -40,7 +40,7 @@ https://www.nike.com/nl/en/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 startpagina  
-<img src="images/nike-website-screenshot.png" width="375px" alt="startpagina">
+<img src="images/nike-website-screenshot-FED" width="375px" alt="startpagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 schoenen pagina 
@@ -231,8 +231,12 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://codepen.io/shooft/pen/abwLyvm
+2. https://codepen.io/shooft/pen/VwWjVRa
+3. https://developer.mozilla.org/en-US/
+4. https://stackoverflow.com/
+5. https://codepen.io/shooft/pen/mdwroZE
+6. https://codepen.io/shooft/pen/PojGBYo
+7. https://codepen.io/shooft/pen/KKqMPqN
 
 </details>
