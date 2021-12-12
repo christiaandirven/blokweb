@@ -1,0 +1,326 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+
+:root {
+    --background-color: #F5F5F5;
+    --color-text: #111111;
+    --color-text-2: white;
+    --button-color: #111111;
+    --button-color-2: white;
+    --nav-color: white;
+    --main-color: white;
+    --hover-color: rgba(255, 255, 255, 0.5);
+    --hover-color-2: rgba(0, 0, 0, 0.5);
+    --hover-text: rgba(0, 0, 0, 0.5);
+    --hover-text-2: rgba(255, 255, 255, 0.5);
+    --footer-color: #111111;
+    --footer-text: white;
+}
+
+/* algemen stijlen voor mensen met darkmode */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #575e63;
+        --color-text: white;
+        --color-text-2: #111111;
+        --button-color: white;
+        --button-color-2: #111111;
+        --nav-color: #38444c;
+        --main-color: #38444c;
+        --hover-color: rgba(0, 0, 0, 0.5);
+        --hover-color-2: rgba(255, 255, 255, 0.5);
+        --hover-text: rgba(255, 255, 255, 0.5);
+        --hover-text-2: rgba(0, 0, 0, 0.5);
+        --footer-color: white;
+        --footer-text: #111111;
+    }
+}
+
+
+
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+
+body {
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+header {
+    top: 0;
+
+    padding: .25em .75em;
+    display: flex;
+    align-items: center;
+}
+
+main section h1 {
+    padding-right: .5em;
+    padding-left: 6px;
+    font-family: trade-gothic-next-compressed, sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 3.75em;
+    display: block;
+    box-sizing: border-box;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    line-height: .75em;
+    color: var(--color-text);
+}
+
+main section h2 {
+    padding-right: .5em;
+    padding-left: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: block;
+    box-sizing: border-box;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    line-height: .75em;
+    position: relative;
+    margin-top: 1.56em;
+    margin-left: 1.25em;
+    color: var(--color-text);
+}
+
+main section h3 {
+    padding: 0 .5em;
+    margin: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+main section h4 {
+    font-family: trade-gothic-next-compressed, sans-serif;
+    font-size: 3.13em;
+}
+
+main section img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+main section button {
+    background-color: var(--button-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 2.5em 2.25em 9.38em
+}
+
+/* inline block betekend hier dat het element altijd op een nieuwe
+regel begint en dat het de volledige breedte van het browservenster innemt. */
+
+main section:nth-of-type(1) p {
+    display: inline-block;
+    top: 5em;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    line-height: 5em;
+    font-size: .75em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--color-text);
+}
+
+
+
+footer {
+    background-color: var(--footer-color);
+}
+
+
+footer a {
+    color: var(--footer-text);
+    font-family: trade-gothic-next-compressed, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav:nth-of-type(1) {
+    display: flex;
+    width: 7.5em;
+    height: 3.5em;
+
+    background-position: .75em center;
+    background-size: auto 1.56em;
+    background-repeat: no-repeat;
+    outline: none;
+    flex-grow: 1;
+    justify-content: space-between;
+    color: var(--nav-color);
+
+}
+
+/* flex direction row zorgt ervoor dat de items in de ul
+op een rij geplaatst worden */
+nav:first-of-type ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-grow: 1;
+    justify-content: flex-end;
+    order: 1;
+    padding: 0 .5em;
+    color: var(--nav-color);
+}
+
+nav a:first-of-type img {
+    width: 3.75em;
+    height: 3.75em;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    align-items: center;
+}
+
+nav a:first-of-type img:hover {
+    opacity: 0.5;
+}
+
+nav ul:first-of-type a img {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    justify-content: right;
+
+
+}
+
+nav button {
+    padding: 0%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    align-items: center;
+}
+
+
+nav button img {
+    width: 1.5em;
+    height: 1.5em;
+    z-index: 10;
+}
+
+nav button img:hover {
+    opacity: 0.5;
+}
+
+nav button img:focus {
+    opacity: 0.5;
+}
+
+nav:nth-of-type(2).toonMenu {
+    transform: translateX(0%);
+
+}
+
+nav:nth-of-type(2) a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 60;
+    font-size: 1.5em;
+    padding-left: .63em 0;
+    color: var(--color-text);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav:nth-of-type(2) a:hover {
+    cursor: pointer;
+}
+
+nav:nth-of-type(2) a:focus {
+    outline-style: solid;
+    outline-color: dodgerblue;
+}
+
+nav:nth-of-type(2) {
+    position: fixed;
+    overflow: scroll;
+    display: flex;
+    width: 50%;
+    transform: translateX(100%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--nav-color);
+    transition: 0.2s;
+    z-index: 10;
+}
+
+nav:nth-of-type(2) button img {
+    position: fixed;
+    padding: 0%;
+    left: 90%;
+    top: 3%;
+    width: 1.13em;
+    height: 1.13em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: top;
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 2.5em 2.25em 9.38em
+}
+
+nav:nth-of-type(2) a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 60;
+    font-size: 1.5em;
+    padding-left: .63em 0;
+    color: var(--color-text);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav:nth-of-type(2) a:hover {
+    cursor: pointer;
+}
+
+nav:nth-of-type(2) a:focus {
+    outline-style: solid;
+    outline-color: dodgerblue;
+}

@@ -76,6 +76,8 @@ schoenen pagina
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik vond het lastig om mijn website  te structureren ik hoop hier in de komende sessie een beter begrip voor te krijgen.
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -90,10 +92,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Structuur aangebracht op mijn website
+- Gewerkt met flexbox
 
 </details>
 
@@ -107,7 +107,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn opstelling van mn website is nog niet optimaal maar ik hoop door te borduren op wat mij vorige week is verteld
 
 
 ### Agenda voor meeting
@@ -123,10 +123,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb eindelijk mijn opstelling goed kunnen krijgen
+- Basis regels van mijn HTML besproken
 
 </details>
 
@@ -142,28 +140,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
+Niet alles was interactief met het toetsenbord.
+Niet alle images zaten in een a tag
+
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Niet alle elementen staan in a tags waardoor ze nog niet selectable zijn
+
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Niet alle images zitten in een a tag
 
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+(dezelfde oplossing kan gebruikt worden als hierboven)
 
 </details>
 
@@ -179,6 +170,9 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb uiteindelijk het merendeel van mn website helemaal zelfstandig kunnen uitwerken met een paar kleine opstoppingen. Ik heb
+alleen wat hukp nodig met een exit knop
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -193,10 +187,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- alles toetsenbord interactief gemaakt dmv tabindex
+
 
 </details>
 
@@ -212,9 +204,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Het zelfstandig coderen ging beter dan verwacht. Ik vond het lastig om ervoor te zorgen dat ik goed semantische code schreef
+
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+
+<img src="Homepagina Eindresultaat.png">
+<img src="Schoenenpagina Eindresultaat.png">
 
 </details>
 
