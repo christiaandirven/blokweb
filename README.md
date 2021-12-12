@@ -40,11 +40,11 @@ https://www.nike.com/nl/en/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 startpagina  
-<img src="images/nike-website-screenshot-FED" width="375px" alt="startpagina">
+<img src="images/nike-website-screenshot-FED.png" width="375px" alt="startpagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 schoenen pagina 
-<img src="images/nike-schoenenpagina.Png" width="375px" alt="schoenenpagina">
+<img src="images/nike-schoenenpagina.png" width="375px" alt="schoenenpagina">
  
 </details>
 
