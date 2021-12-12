@@ -44,7 +44,7 @@ startpagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 schoenen pagina 
-<img src="images/nike-schoenenpagina.png" width="375px" alt="schoenenpagina">
+<img src="images/nike-schoenenpagina.Png" width="375px" alt="schoenenpagina">
  
 </details>
 
