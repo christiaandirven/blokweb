@@ -180,7 +180,7 @@ Sundous had tijdens de test opgemerkt dat niks binnen mijn website een active st
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-De usability test ging deze week op zich best goed aangezien ik cruciale problemen binnen mijn website heb kunnen oplossen met de hulp van Sundous. Ik heb echter nog wel moeite om ervoor te zorgen dat het kruisje binnen mijn hamburgermenu selectable is met de tabtoets.
+De usability test ging deze week op zich best goed aangezien ik cruciale problemen binnen mijn website heb kunnen oplossen met de hulp van Sundous. Ik heb echter nog wel moeite om ervoor te zorgen dat het kruisje binnen mijn hamburgermenu selectable is met de tabtoets. Ik hoop hier komend voortgangsgesprek uit te komen met de studentassistent.
 
 <img src="images/kruisjescreenshot.png">
 
