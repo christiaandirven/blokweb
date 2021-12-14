@@ -117,7 +117,7 @@ aangezien ik het lastig vind om de orde te behouden als het aankomt op parent en
 child elementen. De huiswerkopdrachten waren op zo'n manier gestructureerd dat het duidelijk
 genoeg was om er voor het merendeel in m'n eentje uit te komen. Ik heb de dingen die ik van de huiswerkopdracht heb meegekregen al een klein beetje toegepast op mijn eigen website waar ik best wel trots op ben.
 
-<img src="positionfixed.png">
+<img src="images/positionfixed.png">
 
 
 ### Agenda voor meeting
@@ -182,7 +182,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 De usability test ging deze week op zich best goed aangezien ik cruciale problemen binnen mijn website heb kunnen oplossen met de hulp van Sundous. Ik heb echter nog wel moeite om ervoor te zorgen dat het kruisje binnen mijn hamburgermenu selectable is met de tabtoets.
 
-<img src="kruisjescreenshot.png">
+<img src="images/kruisjescreenshot.png">
 
 
 ### Agenda voor meeting
@@ -222,9 +222,9 @@ Ik ben erg trots met mijn uiteindelijke variatie van de Nike site aangezien ik a
 
 hier screenshot(s) van je eindresultaat
 
-<img src="Homepagina Eindresultaat.png">
-<img src="Schoenenpagina Eindresultaat.png">
-<img src="menuscreenshot.png">
+<img src="images/Homepagina Eindresultaat.png">
+<img src="images/Schoenenpagina Eindresultaat.png">
+<img src="images/menuscreenshot.png">
 
 </details>
 
